@@ -35,7 +35,7 @@ while (exitForProgram == 1):
             numFraction_1f = str("{:.3f}".format(numFraction_1))
             numFraction_2f = str("{:.3f}".format(numFraction_2))
 
-            print("First Fraction == MAX --> " + numFraction_1f + "\nSecond Fraction  == MIN --> " + numFraction_2f)
+            print(f"First Fraction == MAX --> {numFraction_1f}\nSecond Fraction  == MIN --> {numFraction_2f}")
             print("If you want exit this program enter any number else don't exit program enter 1 ")
             exitForProgram = input__user()
         elif numFraction_1 < numFraction_2:
@@ -43,7 +43,7 @@ while (exitForProgram == 1):
             numFraction_1f = str("{:.3f}".format(numFraction_1))
             numFraction_2f = str("{:.3f}".format(numFraction_2))
 
-            print("First Fraction == Min--> " + numFraction_1f + "\nSecond Fraction == MAX First -->" + numFraction_2f)
+            print(f"First Fraction == Min--> {numFraction_1f} \nSecond Fraction == MAX First --> {numFraction_2f}")
 
             print("If you want exit this program enter any number else don't exit program enter 1 ")
             exitForProgram = input__user()
@@ -51,7 +51,7 @@ while (exitForProgram == 1):
             print("numFraction_1 == numFraction_2")
             numFraction_1f = str("{:.3f}".format(numFraction_1))
             numFraction_2f = str("{:.3f}".format(numFraction_2))
-            print("First Fraction --> " + numFraction_1f + " == Second Fraction --> " + numFraction_2f)
+            print(f"First Fraction --> {numFraction_1f} == Second Fraction --> {numFraction_2f}")
 
             print("If you want exit this program enter any number else don't exit program enter 1 ")
             exitForProgram = input__user()
