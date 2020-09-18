@@ -44,7 +44,7 @@ while (exitForProgram == 1):
             result = arithmetic__average(userNum_1, userNum_2)
             resultFormat = "{:.3f}".format(result)
 
-            print("Arithmetic average --> " + str(resultFormat))
+            print(f"Arithmetic average --> {resultFormat}")
             print("If you want exit this program enter any number else don't exit program enter 1 ")
             exitForProgram = input__user()
         elif userOperation == 2:
@@ -57,7 +57,7 @@ while (exitForProgram == 1):
             result = geometric__average(userNum_1, userNum_2)
             resultFormat = "{:.3f}".format(result)
 
-            print("Geometric average --> " + (resultFormat))
+            print(f"Geometric average --> {resultFormat}" )
             print("If you want exit this program enter any number else don't exit program enter 1 ")
             exitForProgram = input__user()
         else:
