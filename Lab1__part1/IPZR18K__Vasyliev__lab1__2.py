@@ -1,6 +1,6 @@
 
 def meetUser():
-    messageUser="Hello user.\nHello user.\nThis program you helped changed place two integer number, which you enter  "
+    messageUser="\nHello user.\nThis program you helped changed place two integer number, which you enter  "
     print(messageUser)
     return 1
 def inputUserInt():
