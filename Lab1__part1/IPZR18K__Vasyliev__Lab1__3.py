@@ -6,7 +6,6 @@ def meet__user():
     print(messageForUser)
     return 1
 
-
 def info__choose__user():
     operationChooseUser = "\nEnter 1 for find arithmetic average number\nEnter 2 for find geometric average number"
     print(operationChooseUser)
