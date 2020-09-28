@@ -1,4 +1,3 @@
-
 def meet__user():
     messageForUser = "Hello user, in this program you show the capabilities of the output format Python\n";
     print(messageForUser)
